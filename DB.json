@@ -1,3 +1,25 @@
 {
-  "apikeys": ["rafael"]
+  "users": {
+    "akashi": {
+      "username": "akashi",
+      "email": "akashi@example.com",
+      "password_hash": "...",
+      "merchant_id": "M251201...",
+      "secret_key": "4261b5...",
+      "ref_prefix": "akashi",
+      "created_at": "...",
+      "balance": 0,
+      "transactions": []
+    }
+  },
+  "transactions": {
+    "akashi-1733511234567": {
+      "id": "akashi-1733511234567",
+      "order_id": "ORD-001",
+      "total_nominal": 10045,
+      "status": "pending",
+      "created_at": "...",
+      "expired_at": "..."
+    }
+  }
 }
